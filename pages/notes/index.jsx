@@ -1,13 +1,11 @@
 import React from "react";
 import Link from "next/link";
 
-import "../src/styles.module.css";
-
 const Page = () => (
   <div>
-    <h1>Index Page</h1>
-    <Link href="/notes">
-      <a>Note</a>
+    <h1>Note Index path</h1>
+    <Link href="/notes/[id]" as={`/notes/1`}>
+      <a>Note 1</a>
     </Link>
   </div>
 );
