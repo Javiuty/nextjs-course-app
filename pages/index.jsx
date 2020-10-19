@@ -18,3 +18,9 @@ export default () => (
     </div>
   </div>
 );
+
+export function getStaticProps({ params }) {
+  return {
+    props: {},
+  };
+}
