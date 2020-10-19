@@ -5,4 +5,4 @@ dotenvLoad();
 
 const withEnv = nextEnv();
 
-module.exports = withEnv();
+module.exports = withEnv({});
